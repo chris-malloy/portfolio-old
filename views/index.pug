@@ -1,10 +1,12 @@
 extends layout
-
+	
 block content
-	//- LOADING SCREEN
+	include navbar
+	//- LOADING SCEEN
 	div(class="valign-wrapper full-height" id="loading")
 		img(src="/images/loading.gif" class="block center verticle-align")
 	//- WELCOME SCREEN
-	div(id="splash" class="main")
-		h1 Welcome
+	div(id="splash" class="row main")
+		.col.offset-s2
+			h1 Welcome
 		
