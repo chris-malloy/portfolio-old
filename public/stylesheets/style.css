@@ -7,6 +7,9 @@ h1 {
 .center {
   margin: auto; }
 
+nav .brand-logo {
+  padding-left: 20px; }
+
 #loading {
   height: 100vh; }
 
@@ -15,6 +18,23 @@ h1 {
   background-image: url("../images/profile-picture.jpeg");
   background-repeat: no-repeat;
   height: 140vh;
-  padding: 100px; }
+  padding: 100px;
+  margin-bottom: 0px; }
+
+#footer {
+  background-color: #aaaaaa;
+  height: 600px;
+  padding: 100px;
+  margin-bottom: 0px; }
+
+#footer-bottom {
+  margin-top: 100px;
+  text-align: center; }
+
+.logo {
+  height: 110px; }
+
+.logo img {
+  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
