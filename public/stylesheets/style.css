@@ -10,6 +10,9 @@ h1 {
 nav .brand-logo {
   padding-left: 20px; }
 
+.padding {
+  padding: 100px; }
+
 #loading {
   height: 100vh; }
 
@@ -19,7 +22,8 @@ nav .brand-logo {
   background-repeat: no-repeat;
   height: 140vh;
   padding: 100px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  text-align: center; }
 
 #footer {
   background-color: #aaaaaa;
@@ -36,5 +40,8 @@ nav .brand-logo {
 
 .logo img {
   height: 100%; }
+
+.project-border {
+  border: 2px solid grey; }
 
 /*# sourceMappingURL=style.css.map */
