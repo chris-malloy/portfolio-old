@@ -1,5 +1,11 @@
-h1 {
+// GENERAL CLASSES
+h1,
+h5 {
     margin: 0px;
+}
+
+img {
+    height: 100%;
 }
 
 .inlineblock {
@@ -18,9 +24,11 @@ nav .brand-logo {
     padding: 100px;
 }
 
-// img {
-//     height: 100%;
-// }
+.small {
+    height: 100px;
+}
+
+// ID'S
 #loading {
     height: 100vh;
 }
@@ -33,6 +41,11 @@ nav .brand-logo {
     padding: 100px;
     margin-bottom: 0px;
     text-align: center;
+}
+
+#projects {
+    margin: 50px;
+    height: 600px;
 }
 
 #footer {
@@ -56,6 +69,15 @@ nav .brand-logo {
     height: 100%;
 }
 
-.project-border {
-    border: 2px solid grey;
+.feature {
+    margin-top: 100px;
+}
+
+.project {
+    height: 400px;
+}
+
+.test {
+    border: 2px solid black;
+    height: 400px;
 }

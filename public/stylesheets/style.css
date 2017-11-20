@@ -1,5 +1,9 @@
-h1 {
+h1,
+h5 {
   margin: 0px; }
+
+img {
+  height: 100%; }
 
 .inlineblock {
   display: inline-block; }
@@ -13,6 +17,9 @@ nav .brand-logo {
 .padding {
   padding: 100px; }
 
+.small {
+  height: 100px; }
+
 #loading {
   height: 100vh; }
 
@@ -24,6 +31,10 @@ nav .brand-logo {
   padding: 100px;
   margin-bottom: 0px;
   text-align: center; }
+
+#projects {
+  margin: 50px;
+  height: 600px; }
 
 #footer {
   background-color: #aaaaaa;
@@ -41,7 +52,14 @@ nav .brand-logo {
 .logo img {
   height: 100%; }
 
-.project-border {
-  border: 2px solid grey; }
+.feature {
+  margin-top: 100px; }
+
+.project {
+  height: 400px; }
+
+.test {
+  border: 2px solid black;
+  height: 400px; }
 
 /*# sourceMappingURL=style.css.map */
