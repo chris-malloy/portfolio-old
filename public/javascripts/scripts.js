@@ -3,7 +3,6 @@ $(document).ready(() => {
     // $('#loading').hide();
     setTimeout(() => {
         $('#loading').fadeOut();
-        $('#splash').fadeIn(1);
-    }, 1)
-
+        $('#splash').fadeIn(1000);
+    }, 1000)
 })

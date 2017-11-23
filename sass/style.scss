@@ -1,9 +1,4 @@
 // GENERAL CLASSES
-h1,
-h5 {
-    margin: 0px;
-}
-
 img {
     height: 100%;
 }
@@ -44,9 +39,20 @@ nav .brand-logo {
 }
 
 #projects {
+    background-color: rgb(170, 170, 170);
     // margin: 50px;
     padding: 50px;
     height: 550px;
+}
+
+#about {
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+.row p {
+    font-size: 30px;
 }
 
 #footer {
@@ -61,6 +67,7 @@ nav .brand-logo {
     text-align: center;
 }
 
+// Custom Classes
 .logo {
     // border: 2px solid blue;
     height: 110px;

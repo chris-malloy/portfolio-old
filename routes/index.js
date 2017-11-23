@@ -1,13 +1,20 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const mainTitle = "Chris Malloy's Portfolio";
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { title: "Chris Malloy's Portfolio" });
+    res.render('index', { 
+        title: mainTitle 
+    });
 });
-/* GET temporary */
+
+/* GET temporary page */
 router.get('/temporary', function(req, res, next) {
-    res.render('temporary', { title: "Chris Malloy's Portfolio" })
+    res.render('temporary', { 
+        title: mainTitle 
+    })
 });
+
 
 module.exports = router;
