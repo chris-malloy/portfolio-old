@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const mainTitle = "Chris Malloy's Portfolio";
+const mainTitle = "Chris Malloy";
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
