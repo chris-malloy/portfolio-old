@@ -38,6 +38,12 @@ nav .brand-logo {
     text-align: center;
 }
 
+@media (max-width: 750px) {
+    #splash {
+        background-image: url('../images/profile-picture-mobile.jpeg');
+    }
+}
+
 #projects {
     background-color: rgb(170, 170, 170);
     // margin: 50px;
