@@ -1,4 +1,5 @@
 $(document).ready(() => {
+    $(".button-collapse").sideNav();
     $('#splash').hide();
     // $('#loading').hide();
     setTimeout(() => {
