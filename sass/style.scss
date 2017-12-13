@@ -3,6 +3,10 @@ body {
     font-size: 50px;
 }
 
+img {
+    width: 100%;
+}
+
 #main-wrapper {
     height: 100vh;
 }
@@ -14,13 +18,9 @@ body {
     background-repeat: no-repeat;
 }
 
-.projects {
-    background-color: grey;
-}
+.projects {}
 
-.about {
-    background-color: grey;
-}
+.about {}
 
 .about h1 {
     margin-top: 0px;

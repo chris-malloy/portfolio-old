@@ -2,6 +2,9 @@ body {
   color: white;
   font-size: 50px; }
 
+img {
+  width: 100%; }
+
 #main-wrapper {
   height: 100vh; }
 
@@ -9,12 +12,6 @@ body {
   height: 100vh;
   background-image: url("/images/profile-picture-mobile.jpeg");
   background-repeat: no-repeat; }
-
-.projects {
-  background-color: grey; }
-
-.about {
-  background-color: grey; }
 
 .about h1 {
   margin-top: 0px; }
