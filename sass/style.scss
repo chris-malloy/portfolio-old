@@ -4,7 +4,8 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 #main-wrapper {
@@ -16,6 +17,14 @@ img {
     height: 100vh;
     background-image: url('/images/profile-picture-mobile.jpeg');
     background-repeat: no-repeat;
+}
+
+.card-content p {
+    color: black !important;
+}
+
+.card-action a {
+    color: #1565c0 !important;
 }
 
 .projects {}
