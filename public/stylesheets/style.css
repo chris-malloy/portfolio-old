@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #splash {
   color: white;
   background-image: url("../images/profile-picture.jpeg");
@@ -74,18 +73,6 @@ nav .brand-logo {
 .logo {
   height: 110px;
   padding: 10px !important; }
-=======
-body {
-  color: white;
-  font-size: 50px; }
-
-img {
-  width: 100% !important;
-  height: 100% !important; }
-
-#main-wrapper {
-  height: 100vh; }
->>>>>>> 03ec67dd4b8bb935050064414a013ec3cfbca021
 
 .top {
   height: 100vh;
