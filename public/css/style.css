@@ -4,22 +4,10 @@
   background-repeat: no-repeat;
   background-size: contain;
   height: 140vh;
-  background-color: #aaaaaa;
+  padding: 40px;
   margin-bottom: 0px;
   text-align: center; }
 
-#splash img {
-  width: 70%; }
-
-@media screen and (max-width: 1429px) {
-  #splash img {
-    width: 60%; }
-
-  .feature {
-    left: 100px; } }
-@media screen and (max-width: 1300px) {
-  #splash img {
-    width: 50%; } }
 #projects {
   background-color: #aaaaaa;
   padding: 50px;
@@ -46,6 +34,9 @@
   margin-top: 100px;
   text-align: center; }
 
+#splash {
+  background-size: contain; }
+
 img {
   height: 100%; }
 
@@ -71,8 +62,7 @@ nav .brand-logo {
   font-size: 30px; }
 
 .logo {
-  height: 110px;
-  padding: 10px !important; }
+  height: 110px; }
 
 .logo img {
   height: 100%; }
