@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'splash';
 @import 'projects';
 @import 'about';
@@ -21,17 +22,23 @@ nav .brand-logo {
 
 .padding {
     padding: 100px;
+=======
+body {
+    color: white;
+    font-size: 50px;
+>>>>>>> 03ec67dd4b8bb935050064414a013ec3cfbca021
 }
 
-.small {
-    height: 100px;
+img {
+    width: 100% !important;
+    height: 100% !important;
 }
 
-// ID'S
-#loading {
+#main-wrapper {
     height: 100vh;
 }
 
+<<<<<<< HEAD
 .row p {
     font-size: 30px;
 }
@@ -41,21 +48,27 @@ nav .brand-logo {
     // border: 2px solid blue;
     height: 110px;
     padding: 10px !important;
+=======
+// write media query for desktop to have backgorund-attachement: fixed
+.top {
+    height: 100vh;
+    background-image: url('/images/profile-picture-mobile.jpeg');
+    background-repeat: no-repeat;
 }
 
-.logo img {
-    height: 100%;
+.card-content p {
+    color: black !important;
 }
 
-.feature {
-    margin-top: 100px;
+.card-action a {
+    color: #1565c0 !important;
+>>>>>>> 03ec67dd4b8bb935050064414a013ec3cfbca021
 }
 
-.project {
-    height: 400px;
-}
+.projects {}
 
-.test {
-    border: 2px solid black;
-    height: 400px;
+.about {}
+
+.about h1 {
+    margin-top: 0px;
 }
